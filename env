@@ -1,0 +1,28 @@
+# Replace the credentials here with your own.
+# Rename this file to .env before starting the app.
+
+# Cloudant Credentials
+# The name of your database (Created upon startup of APP) You can leave this alone and use default below
+DB_NAME=video_metadata_db
+
+# Cloudant NoSQL DB Credentials and Config options (Required)
+DB_USERNAME=dd0ee7fe-1275-403f-bfc1-a10b5aa515d8-bluemix
+DB_PASSWORD=2de43bc2d4c81f3ca2cea666bc788e86b2f225cdc54daa97bc6b2e3d9ef0c683
+DB_HOST=dd0ee7fe-1275-403f-bfc1-a10b5aa515d8-bluemix.cloudant.com
+DB_PORT=443
+DB_URL=https://dd0ee7fe-1275-403f-bfc1-a10b5aa515d8-bluemix:2de43bc2d4c81f3ca2cea666bc788e86b2f225cdc54daa97bc6b2e3d9ef0c683@dd0ee7fe-1275-403f-bfc1-a10b5aa515d8-bluemix.cloudant.com
+
+# Tone Analyzer Credentials
+TONE_ANALYZER_USERNAME=dbb67708-42bf-42ae-9ee9-afbb66f94c30
+TONE_ANALYZER_PASSWORD=gxSf3glwxloa
+
+# SpeechToText Credentials
+SPEECH_TO_TEXT_USERNAME=719ddca5-bf01-4623-ae45-d3ee4363c2fc
+SPEECH_TO_TEXT_PASSWORD=SDrs5XUMLXyU
+
+# Visual Recognition Key
+VR_KEY=0825b5daa65b177e103b543763bad4e099932e52
+
+# Natural Language Understanding Credentials
+NATURAL_LANGUAGE_UNDERSTANDING_USERNAME=84b8551b-3b93-4241-85b2-724292690cc1
+NATURAL_LANGUAGE_UNDERSTANDING_PASSWORD=VJIDEP0KgjUU
