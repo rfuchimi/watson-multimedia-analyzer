@@ -51,7 +51,7 @@ const jsonParser = bodyParser.json();
 
 const users = {
   // Default and REQUIRED.  Do not remove this, you CAN add others though.
-  'enrich': { password: 'enrichit' },
+  'admin': { password: 'admin' },
 };
 app.use(pino);
 // serve the files out of ./public as our main files
